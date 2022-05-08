@@ -1,0 +1,23 @@
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(12, 98, 211);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    cursor: pointer; 
+}
+.btn:hover{
+    color: black;
+    background-color: chartreuse;
+}
+.flex_center{
+    text-align: center;
+}
+
+.main_pic{
+    border: 0px;
+}

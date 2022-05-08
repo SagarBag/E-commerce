@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+
+header {
+    background: rgb(12, 98, 211);
+    height: 10vh;
+    min-width: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+main{
+    min-height: calc(100vh - 10vh - 10vh);
+    min-width: 100vh;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 170px;
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(12, 98, 211);
+    border: 0px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    
+    color: chartreuse;
+    font-weight: bolder;
+}
+p{
+    font-size: larger;
+    font-family: 'Comic Sans MS', 'Arial Narrow', Arial, sans-serif;
+}
+p:hover{
+    cursor:pointer;
+    font-weight: bolder;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.container{
+    background-color: gainsboro;
+}
+main{
+    background-color: gainsboro;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+.card-item{
+    background-color: gainsboro;
+}
+footer {
+    min-width: 100vh;
+    height: 10vh;
+    background: rgb(12, 98, 221);
+    display: flex;
+    color: white;
+}
+img{
+    padding: 25px;
+    background-color: rgb(54, 47, 47);
+    border-radius: 30px;
+    border-color: gainsboro;
+    border-style: double;
+    border-width: 0px;
+}
+.card .cards .card-item img:hover{
+cursor: pointer;
+height: 210px ;
+width: 210px;
+}
+h2{
+    padding: 0px 20px 0px 0px;
+    background-color: rgb(231, 148, 166);
+}
